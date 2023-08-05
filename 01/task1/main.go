@@ -13,7 +13,7 @@ func main() {
 	listOfElves := []int{}
 	totalCalories := 0
 
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

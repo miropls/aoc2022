@@ -43,7 +43,7 @@ func calculateRoundScore(o, p string) int {
 func main() {
 	playerTotalPoints := 0
 
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
